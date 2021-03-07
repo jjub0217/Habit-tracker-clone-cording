@@ -7,7 +7,9 @@ import App from './app';
 import '@fortawesome/fontawesome-free/js/all.js';
 
 ReactDOM.render( 
-    <App />,
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
   document.getElementById('root')
 ); // | 1. 'react-dom'이라는 라이브러리에서 가져온 ReactDOM이라는 내장Class 함수의, 뷰포트에 그리는 역할을 하는 render 내장 메서드를 사용해서,
    // | 	뷰포트에 그려라. 
